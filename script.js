@@ -12,11 +12,11 @@ const skills = [
 ];
 
 const projects = [
-  ["01","Flight Price Prediction","Machine-learning project focused on predicting flight ticket prices from travel and flight-related features.","Python • Pandas • ML"],
-  ["02","House Price Prediction","Regression-based project for estimating house prices using property characteristics and exploratory data analysis.","Python • Regression • EDA"],
-  ["03","Rice Leaf Disease","AI/computer-vision oriented project aimed at identifying disease patterns in rice leaves.","Python • AI • Computer Vision"],
-  ["04","Heart Disease Prediction","Predictive analytics project designed to estimate heart-disease risk from health-related features.","Python • ML • Classification"],
-  ["05","Portfolio Website","A responsive personal portfolio designed to present skills, projects and a professional profile.","HTML • CSS • JavaScript • Responsive UI"]
+  ["01","Flight Price Prediction","ML model that predicts flight ticket prices using travel and flight details.","Python • Pandas • ML"],
+  ["02","House Price Prediction","ML model that predicts house prices based on property features and market factors.","Python • Regression • EDA"],
+  ["03","Rice Leaf Disease","Classifies rice leaf diseases using image-based ML.","Python • AI • Computer Vision"],
+  ["04","Heart Disease Prediction","Classifies patients based on heart disease risk.","Python • ML • Classification"],
+  ["05","Portfolio Website","Responsive website showcasing my skills, projects, and professional profile.","HTML • CSS • JavaScript • Responsive UI"]
 ];
 
 document.getElementById("skillsGrid").innerHTML = skills.map(s =>
